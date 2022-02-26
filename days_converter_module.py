@@ -1,4 +1,4 @@
-user_input_message = "*****************************\nHey user, enter number of days and conversion unit\n"
+user_input_message = "Hey user, enter number of days and conversion unit\n"
 
 
 def days_to_units(num_of_days, conversion_unit):
