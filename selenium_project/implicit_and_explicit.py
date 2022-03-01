@@ -25,5 +25,6 @@ results = WebDriverWait(driver, 30).until(
 )
 
 print(results)
-if results == 'True':
-    driver.close()
+if results == True:
+    time.sleep(8)
+    driver.quit()
