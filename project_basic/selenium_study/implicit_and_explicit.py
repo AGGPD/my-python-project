@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-s = Service('../drivers/chromedriver')
+s = Service('../../drivers/chromedriver')
 driver = webdriver.Chrome(service=s)
 driver.get('https://demo.seleniumeasy.com/jquery-download-progress-bar-demo.html')
 
